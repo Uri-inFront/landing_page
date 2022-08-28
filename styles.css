@@ -4,6 +4,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    font-family: 'Roboto', sans-serif;
 }
 /* Start of header */
 .header {
@@ -34,11 +35,46 @@ body {
 .main {
     background-color: #1f2937;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     flex-grow: 1;
 }
 
+.modal {
+    display: flex;
+    flex-direction: column;
+    max-width: 450px;
+    gap: 8px;
+}
+
+.top {
+    font-weight: bolder;
+    color: #f9faf8;
+    font-size: 48px;
+}
+
+.sub {
+    color: #f9faf8ea;
+}
+
+button {
+    padding: 8px 16px;
+    border-radius: 8px;
+    width: 100px;
+}
+
+button.sign {
+    background-color: royalblue;
+    border: 1px;
+    color: white;
+    font-weight: bold;
+}
+
+.image {
+    display: flex;
+    max-width: 450px; /* Don't know if we might edit this , leave it for now! */
+    background-color: grey;
+}
 /* Start of 2nd block */
 
 .random {
@@ -46,6 +82,21 @@ body {
     display: flex;
     flex-direction: column;
     flex-grow: 1;
+    justify-content: center;
+}
+
+.bold {
+    font-size: 39px;
+    color: #1f2937;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+}
+
+.random-images {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
 }
 
 /* Start of 3rd block */
@@ -53,15 +104,60 @@ body {
 .inspiring {
     background-color: #E5E7EB;
     display: flex;
+    align-items: center;
     flex-grow: 1;
 }
 
+.god {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    display: flex;
+    flex-wrap: wrap;    
+}
+ 
+/* We'll be right back to solve this */
+
+.thor {
+    display: flex;
+    margin-left: auto;
+}
 /* Start of 4th block*/
 
 .action {
     display: flex;
     flex-grow: 1;
+    justify-content: center;
+    align-items: center;
 }
+
+.call {
+    background-color: #3882f6;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding:  30px 90px;
+    border-radius: 7px;
+    gap: 200px;
+}
+
+
+.time {
+    margin-right: auto;
+    font-weight: bold;
+}
+
+.call button {
+    background-color: #3882f6;
+    color: white;
+    font-weight: bold;
+}
+
+.call button.there {
+   border-color: white;
+   border-style: solid;
+}
+
 
 /* footer */
 
