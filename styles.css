@@ -6,6 +6,7 @@ body {
     flex-direction: column;
     font-family: 'Roboto', sans-serif;
 }
+
 /* Start of header */
 .header {
     background-color: #097969;
@@ -19,7 +20,6 @@ body {
     height: 100px;
 }
 
-/* Nav Bar Links*/
 .links ul {
     display: flex;
     align-items: center;
@@ -69,12 +69,12 @@ body {
 
 .top {
     font-weight: bolder;
-    color: #f9faf8;
+    color: black;
     font-size: 48px;
 }
 
 .sub {
-    color: #f9faf8ea;
+    color: black;
 }
 
 button {
@@ -84,7 +84,7 @@ button {
 }
 
 button.sign {
-    background-color: royalblue;
+    background-color: black;
     border: 1px;
     color: white;
     font-weight: bold;
