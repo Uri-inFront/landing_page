@@ -19,8 +19,10 @@ body {
     height: 100px;
 }
 
+/* Nav Bar Links*/
 .links ul {
     display: flex;
+    align-items: center;
     gap: 20px;
 }
 
@@ -31,7 +33,25 @@ body {
     font-size: 18px;
 }
 
-/* Start of 1st block */
+/* Buttons in Nav Bar*/
+.new_members {
+    display: flex;
+    gap: 10px;
+}
+
+ .free {
+    background-color: black;
+    padding: 10px 20px;
+    border-radius: 20px;
+ }
+
+ .join  {
+    background-color: black;
+    padding: 10px 20px;
+    border-radius: 20px;
+ }
+
+/* Start of 1st block */ 
 .main {
     background-color: #B2BEB5;
     display: flex;
