@@ -11,8 +11,9 @@ body {
 .header {
     background-color: #097969;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    padding: 0px 58px;
 }
 
 .logo img {
@@ -55,9 +56,10 @@ body {
 .main {
     background-color: #B2BEB5;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
-    flex-grow: 1;
+    height: 700px;
+    padding: 0px 58px;
 }
 
 .modal {
@@ -91,9 +93,12 @@ button.sign {
 }
 
 .image {
-    display: flex;
-    max-width: 450px; /* Don't know if we might edit this , leave it for now! */
-    background-color: grey;
+    display: flex; 
+}
+
+.image img {
+    height: 700px;
+    width: 700px;
 }
 /* Start of 2nd block */
 
@@ -101,22 +106,34 @@ button.sign {
     background-color: white;
     display: flex;
     flex-direction: column;
-    flex-grow: 1;
+    height: 700px;
     justify-content: center;
+    padding: 0px 58px;
 }
 
 .bold {
-    font-size: 39px;
+    font-size: 59px;
     color: #1f2937;
     font-weight: bolder;
     display: flex;
     justify-content: center;
+    margin-bottom: 80px;
 }
 
 .random-images {
     display: flex;
-    justify-content: center;
-    gap: 8px;
+    justify-content: space-between;
+}
+
+.random-images img {
+    height: 400px;
+    width: 380px;
+}
+
+.value {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 25px;
 }
 
 /* Start of 3rd block */
@@ -126,7 +143,8 @@ button.sign {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-grow: 1;
+    height: 500px;
+    padding: 0px 58px;
 }
 
 .god {
@@ -148,7 +166,7 @@ button.sign {
 
 .action {
     display: flex;
-    flex-grow: 1;
+    height: 300px;
     justify-content: center;
     align-items: center;
     background-color: #B2BEB5;
