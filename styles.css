@@ -13,7 +13,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 58px;
+    padding: 0px 20px 0px 20px;
 }
 
 .logo img {
@@ -59,7 +59,7 @@ body {
     justify-content: space-between;
     align-items: center;
     height: 700px;
-    padding: 0px 58px;
+    padding: 0px 0px 0px 20px;
 }
 
 .modal {
@@ -98,7 +98,7 @@ button.sign {
 
 .image img {
     height: 700px;
-    width: 700px;
+    width: 750px;
 }
 /* Start of 2nd block */
 
@@ -108,7 +108,7 @@ button.sign {
     flex-direction: column;
     height: 700px;
     justify-content: center;
-    padding: 0px 58px;
+    padding: 0px 20px 0px 20px;
 }
 
 .bold {
@@ -134,6 +134,7 @@ button.sign {
     text-align: center;
     font-weight: bolder;
     font-size: 25px;
+    margin-top: 15px;
 }
 
 /* Start of 3rd block */
@@ -189,13 +190,13 @@ button.sign {
 }
 
 .call button {
-    background-color: #3882f6;
+    background-color: black;
     color: white;
     font-weight: bold;
 }
 
 .call button.there {
-   border-color: white;
+    border-color: black;
    border-style: solid;
 }
 
@@ -209,4 +210,5 @@ button.sign {
     max-height: 30px;
     color: black;
     justify-content: center;
+    font-weight: bolder;
 }
