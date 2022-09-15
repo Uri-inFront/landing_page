@@ -15,6 +15,10 @@ body {
     align-items: center;
     padding: 0px 20px 0px 20px;
     font-family: 'Montserrat', sans-serif;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
 .logo img {
@@ -209,7 +213,7 @@ button.sign {
     background-color: white;
     display: flex;   
     flex-grow: 1;
-    max-height: 30px;
+    height: 100px;
     color: black;
     justify-content: center;
     font-weight: bolder;
