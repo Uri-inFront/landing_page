@@ -63,7 +63,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 700px;
+    height: 980px;
     padding: 0px 0px 0px 20px;
 }
 
@@ -77,11 +77,12 @@ body {
 .top {
     font-weight: bolder;
     color: black;
-    font-size: 48px;
+    font-size: 60px;
 }
 
 .sub {
     color: black;
+    font-size: 18px;
 }
 
 button {
@@ -102,7 +103,7 @@ button.sign {
 }
 
 .image img {
-    height: 700px;
+    height: 980px;
     width: 750px;
 }
 /* Start of 2nd block */
@@ -111,7 +112,7 @@ button.sign {
     background-color: white;
     display: flex;
     flex-direction: column;
-    height: 700px;
+    height: 900px;
     justify-content: center;
     padding: 0px 20px 0px 20px;
     font-family: 'Montserrat', sans-serif;
@@ -173,7 +174,7 @@ button.sign {
 
 .action {
     display: flex;
-    height: 300px;
+    height: 200px;
     justify-content: center;
     align-items: center;
     background-color: #B2BEB5;
@@ -212,9 +213,73 @@ button.sign {
 .footer {
     background-color: white;
     display: flex;   
-    flex-grow: 1;
-    height: 100px;
+    height: 300px;
     color: black;
-    justify-content: center;
-    font-weight: bolder;
+    padding: 30px 0px 0px 100px;
+    gap: 75px;
+}
+
+.hours {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 150px;
+}
+
+.of {
+    font-size: 22px;
+    font-weight: 900;
+}
+
+.operate ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.where {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.visit {
+    font-size: 22px;
+    font-weight: 900;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.up {
+    font-size: 22px;
+    font-weight: 900;
+}
+
+.logos {
+    display: flex;
+    gap: 8px;
+}
+
+.circle1 {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #097969;
+}
+
+.circle2 {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #097969;
+}
+
+.circle3 {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #097969;
 }
